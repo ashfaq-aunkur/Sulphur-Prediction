@@ -52,7 +52,7 @@ async def lifespan(app: FastAPI):
     models.clear()    
     params.clear()
 
-app = FastAPI(title="hello",lifespan=lifespan)
+app = FastAPI(title="Sulphur Prediction",lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
