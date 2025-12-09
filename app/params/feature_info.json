@@ -1,0 +1,11 @@
+{
+    "numeric_features": [
+        "n",
+        "p",
+        "k",
+        "ph"
+    ],
+    "categorical_features": [
+        "aez"
+    ]
+}
